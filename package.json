@@ -1,0 +1,13 @@
+{
+  "name": "undo-habit-tracker",
+  "version": "1.0.0",
+  "description": "UNDO app server on Railway",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2"
+  }
+}
