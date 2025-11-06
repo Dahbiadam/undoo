@@ -526,24 +526,24 @@
           </div>
 
           <div id="login-step" style="text-align:center; margin-bottom:2rem;">
-            <h3 class="heading" style="font-size:1.5rem; margin-bottom:1rem">Sign In to UNDO</h3>
-            <div id="g_id_onload"
-                data-client_id="YOUR_GOOGLE_CLIENT_ID" 
-                data-context="signin"
-                data-ux_mode="popup"
-                data-callback="handleCredentialResponse"
-                data-auto_prompt="false">
-            </div>
-            <div class="g_id_signin"
-                data-type="standard"
-                data-shape="rectangular"
-                data-theme="outline"
-                data-text="signin_with"
-                data-size="large"
-                data-logo_alignment="left">
-            </div>
-            <div class="small muted" style="margin-top:1rem">Sign in with Google to securely save your progress and access the AI Coach.</div>
-          </div>
+    <h3 class="heading" style="font-size:1.5rem; margin-bottom:1rem">Sign In to UNDO</h3>
+    <div id="g_id_onload"
+        data-client_id="%GOOGLE_CLIENT_ID_PLACEHOLDER%" 
+        data-context="signin"
+        data-ux_mode="popup"
+        data-callback="handleCredentialResponse"
+        data-auto_prompt="false">
+    </div>
+    <div class="g_id_signin"
+        data-type="standard"
+        data-shape="rectangular"
+        data-theme="outline"
+        data-text="signin_with"
+        data-size="large"
+        data-logo_alignment="left">
+    </div>
+    <div class="small muted" style="margin-top:1rem">Sign in with Google to securely save your progress and access the AI Coach.</div>
+</div>
 
           <div id="question-wrap" class="flex" style="flex-direction:column;gap:1rem;display:none">
             <div>
@@ -2643,3 +2643,4 @@
 </script>
 </body>
 </html>
+
